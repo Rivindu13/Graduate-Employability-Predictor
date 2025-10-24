@@ -1,9 +1,63 @@
-# 🎓 Graduate-Employability-Predictor
+🎓 Graduate Employability Predictor
 
-The Graduate Employability predictor targets to assess an undergraduate's likelihood of being employed after graduation using a data driven approach. The system uses the Graduate Employability Dataset from Kaggle. 
+The Graduate Employability Predictor is a machine learning–powered web application designed to estimate a graduate’s likelihood of being employed after completing their studies.
+It leverages academic, personal, and skill-based data to provide an objective employability assessment.
 
-Data preprocessing techniques were applied to handle missing values, standardize data, and encode categorical variables. We trained several models such as, Logistic Regression, Random Forest, and XGBoost. 
+📊 Overview
 
-Then we selected the more suitable model to develop our system. The trained model was integrated into a web-based application that allows users to enter their details and rapidly predict employability status. 
+This project uses a data-driven approach to assess employability potential among undergraduates.
+The model was trained on the Graduate Employability Dataset from Kaggle and integrated into an interactive Streamlit web application for real-time predictions.
 
-This solution supports educational institutions and career counselors in identifying undergraduates who may need additional guidance and help undergraduates understand the factors influencing their employability outcomes.
+The system allows users to input information such as academic performance, communication skills, project experience, and internship history — then instantly receive a prediction on whether they are likely to be employable or not.
+
+🧠 Project Workflow
+
+1.Data Preprocessing
+  Handled missing values and outliers
+  Standardized numerical features
+  Encoded categorical variables
+  
+2.Model Training
+  Evaluated multiple algorithms including:
+    Logistic Regression
+    Random Forest
+    XGBoost
+  Selected the best-performing model based on accuracy and generalization ability
+  
+3.Deployment
+  Saved the final model as best_employability_model.pkl
+  Integrated it into a Streamlit web application for interactive use
+
+| Feature                             | Description                                          |
+| ----------------------------------- | ---------------------------------------------------- |
+| 🧠 **IQ**                           | Student’s intelligence quotient                      |
+| 📚 **Previous Semester Result (%)** | Academic percentage in the previous semester         |
+| 🎓 **CGPA**                         | Overall cumulative GPA                               |
+| 🏅 **Academic Performance Score**   | Normalized performance score (0–10)                  |
+| 💼 **Internship Experience**        | Whether the student completed an internship (Yes/No) |
+| 🎨 **Extra-Curricular Score**       | Participation in extracurricular activities (0–10)   |
+| 🗣 **Communication Skills**          | Rated on a scale of 1–10                             |
+| 💻 **Projects Completed**           | Number of academic or technical projects completed   |
+
+=======================
+🚀 Technologies Used
+
+Python 🐍
+Pandas, NumPy — Data preprocessing
+Scikit-learn, XGBoost — Model training
+Joblib — Model serialization
+Streamlit — Web app development
+
+=======================
+🎯 Purpose
+
+This project aims to support:
+  Educational institutions in identifying students who may need additional training
+  Career counselors in guiding students based on measurable attributes
+  Undergraduates in understanding factors that influence their employability outcomes
+
+=======================
+👨‍💻 Author
+
+Rivindu Dulan
+💡 “Empowering students with data-driven career insights.”
