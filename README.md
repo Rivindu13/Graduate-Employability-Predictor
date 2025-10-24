@@ -39,7 +39,6 @@ The system allows users to input information such as academic performance, commu
 | 🗣 **Communication Skills**          | Rated on a scale of 1–10                             |
 | 💻 **Projects Completed**           | Number of academic or technical projects completed   |
 
-=======================
 🚀 Technologies Used
 
 Python 🐍
@@ -48,7 +47,6 @@ Scikit-learn, XGBoost — Model training
 Joblib — Model serialization
 Streamlit — Web app development
 
-=======================
 🎯 Purpose
 
 This project aims to support:
@@ -56,7 +54,6 @@ This project aims to support:
   Career counselors in guiding students based on measurable attributes
   Undergraduates in understanding factors that influence their employability outcomes
 
-=======================
 👨‍💻 Author
 
 Rivindu Dulan
